@@ -14,6 +14,7 @@ release = "1.0.0"
 
 extensions = [
     'sphinxcontrib.images',
+    'sphinxcontrib.youtube'
 ]
 
 master_doc = 'index'

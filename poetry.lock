@@ -287,6 +287,21 @@ lint = ["flake8", "mypy", "docutils-stubs"]
 test = ["pytest"]
 
 [[package]]
+name = "sphinxcontrib-youtube"
+version = "1.2.0"
+description = "Sphinx \"youtube\" extension"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+requests = "*"
+Sphinx = ">=0.6"
+
+[package.extras]
+doc = ["furo", "sphinx-copybutton"]
+
+[[package]]
 name = "typing-extensions"
 version = "4.3.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
@@ -322,7 +337,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7,<3.11"
-content-hash = "ce27988a7d30eb4621f6317c1b5d532762845934975248384d92047ec9665c29"
+content-hash = "5fa6a6ef6145c6b8ae755c8da87e6ce168fede45e0e7b3aaf14bf81adce48942"
 
 [metadata.files]
 alabaster = []
@@ -350,6 +365,7 @@ sphinxcontrib-images = []
 sphinxcontrib-jsmath = []
 sphinxcontrib-qthelp = []
 sphinxcontrib-serializinghtml = []
+sphinxcontrib-youtube = []
 typing-extensions = []
 urllib3 = []
 zipp = []

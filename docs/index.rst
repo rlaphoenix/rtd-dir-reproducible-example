@@ -51,3 +51,14 @@ Remote Images (https)
    :width: 32%
 
    3
+
+Vimeo Thumbnails (sphinxcontrib-youtube 1.2.0)
+----------------------------------------------
+
+.. vimeo:: 657905289
+   :aspect: 4:3
+   :width: 100%
+
+.. vimeo:: 382251167
+   :aspect: 3:2
+   :width: 100%
